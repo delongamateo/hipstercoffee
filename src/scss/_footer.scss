@@ -7,6 +7,10 @@ footer {
   align-items: center;
   color: white;
 
+  @media (max-width: 720px) {
+    height: 50vh;
+  }
+
   .navbar {
     display: flex;
     flex-direction: row;
@@ -16,8 +20,21 @@ footer {
     width: 25%;
     margin-bottom: 50px;
 
+    @media (max-width: 720px) {
+      width: 100%;
+      margin: 50px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
     a {
       color: white;
+    }
+  }
+
+  h3 {
+    @media (max-width: 720px) {
+      margin-top: 50px;
     }
   }
 }
