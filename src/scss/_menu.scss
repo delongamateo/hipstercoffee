@@ -1,11 +1,43 @@
 @import "nav";
 
-.mainpart {
+.mainmenu {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 50px;
+
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  .menu {
     display: flex;
-    margin: 0;
-    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .card {
+      margin-left: 0;
+      margin-right: 80px;
+      margin-bottom: 80px;
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+
+      .list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  img {
+    width: 80%;
+    height: 70vh;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 50px;
+  }
 }
 
-    
-      
-
+@import "footer";
