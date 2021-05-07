@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    img {
+        height: 15vh;
+        width: 15vh;
+        
+        
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 40%;
+
+        .nav_link {
+            text-decoration: none;
+
+        }
+    }
+}
