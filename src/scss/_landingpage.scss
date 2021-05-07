@@ -1,1 +1,39 @@
 @import "nav";
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+}
+
+.heroimg {
+    width: 80%;
+    height: 80vh;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+    h3 {
+        margin-bottom: 15px;
+    }
+}
+
+.map {
+    width: 80%;
+    height: 80vh;
+}
+
+@import "footer";
