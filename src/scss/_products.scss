@@ -1,5 +1,33 @@
 @import "nav";
 
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
 
+    .products {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+
+        .product {
+            display: flex;
+            flex-direction: column;
+            background-color: $lightgrey;
+            width: 40%;
+            margin: 20px;
+
+            h3 {
+                padding: 10px;
+            }
+
+            p {
+                padding: 10px
+            }
+        }
+    }
+}
 
 @import "footer";
